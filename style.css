@@ -78,14 +78,14 @@ body * {
   animation: slide-back 0.2s;
 }
 
-#switch button:hover {
-  outline: 8px solid var(--highlight-color);
-}
+
 
 .light #switch button {
   animation: slide-in 0.4s forwards;
 }
-
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
 #switch span {
   display: block;
   width: 64px;
@@ -154,7 +154,7 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-@media (min-width: 700px) {
+@media (width: 100%) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
